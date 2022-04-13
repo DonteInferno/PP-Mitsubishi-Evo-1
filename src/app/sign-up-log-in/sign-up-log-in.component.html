@@ -1,0 +1,141 @@
+<mat-tab-group mat-align-tabs="center" animationDuration="2000ms">
+  <mat-tab label="Login"
+    ><form [formGroup]="signupForm">
+      <mat-card>
+        <br />
+        <mat-card-title>Login</mat-card-title>
+
+        <!-- <mat-form-field class="example-full-width">
+        <mat-label>First Name</mat-label>
+        <input
+          formControlName="firstName"
+          matInput
+          placeholder="Enter First Name"
+          value=""
+        />
+      </mat-form-field> -->
+
+        <img
+          style="
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            margin-left: 45%;
+          "
+          src="https://i.pinimg.com/originals/16/fc/c2/16fcc2bc07c52ab36aa9253d5795a499.jpg"
+          alt=""
+        />
+
+        <br /><br />
+        <br />
+        <mat-form-field style="padding-left: 15px">
+          <mat-label>Username</mat-label>
+          <input
+            formControlName="username"
+            matInput
+            placeholder="Enter Username"
+          />
+          <mat-error style="color: red">{{ validateUsername() }}</mat-error>
+        </mat-form-field>
+        <br />
+
+        <mat-form-field style="padding-left: 15px">
+          <mat-label>Password</mat-label>
+          <input
+            formControlName="password"
+            matInput
+            placeholder="Enter Password"
+          />
+          <mat-error>{{ validatePassword() }}</mat-error>
+        </mat-form-field>
+        <br /><br /><br /><br /><br />
+        <mat-card-actions align="end">
+          <button (click)="saveForm()" mat-button>SUBMIT</button>
+        </mat-card-actions>
+      </mat-card>
+    </form>
+  </mat-tab>
+  <mat-tab label="Sign Up"
+    ><form [formGroup]="signupForm">
+      <mat-card>
+        <mat-card-title>Sign Up </mat-card-title>
+
+        <!-- <mat-form-field class="example-full-width">
+      <mat-label>First Name</mat-label>
+      <input
+        formControlName="firstName"
+        matInput
+        placeholder="Enter First Name"
+        value=""
+      />
+    </mat-form-field> -->
+
+        <img
+          style="
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            margin-left: 45%;
+          "
+          src="https://i.pinimg.com/originals/16/fc/c2/16fcc2bc07c52ab36aa9253d5795a499.jpg"
+          alt=""
+        />
+
+        <br />
+        <mat-form-field>
+          <mat-label>Last Name</mat-label>
+          <input
+            formControlName="LastName"
+            matInput
+            placeholder="Enter Last Name"
+          />
+          <mat-error style="color: red">{{ validateLName() }}</mat-error>
+        </mat-form-field>
+
+        <br />
+        <mat-form-field>
+          <mat-label>First Name</mat-label>
+          <input
+            formControlName="firstName"
+            matInput
+            placeholder="Enter First Name"
+          />
+          <mat-error style="color: red">{{ validateFName() }}</mat-error>
+        </mat-form-field>
+        <br />
+
+        <mat-form-field>
+          <mat-label>Address </mat-label>
+          <textarea
+            formControlName="address"
+            matInput
+            placeholder="Enter Address"
+          ></textarea>
+          <mat-error style="color: red">{{ validateAddress() }}</mat-error>
+        </mat-form-field>
+        <br />
+
+        <mat-label>Select DOB</mat-label>
+        <input
+          formControlName="dob"
+          matInput
+          [matDatepicker]="picker"
+          placeholder="M/D/Y"
+        />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+        <br />
+
+        <mat-radio-group formControlName="gender" aria-label="Select Gender">
+          <mat-label>Select Gender</mat-label><br /><br />
+          <mat-radio-button value="1">Male</mat-radio-button>
+          <mat-radio-button value="2">Female</mat-radio-button>
+        </mat-radio-group>
+        <br />
+        <mat-card-actions align="end">
+          <button (click)="saveForm()" mat-button>SUBMIT</button>
+        </mat-card-actions>
+      </mat-card>
+    </form></mat-tab
+  >
+</mat-tab-group>

@@ -1,0 +1,12 @@
+form {
+  color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 3%;
+}
+input::before {
+  border-bottom: black;
+}
+button:hover {
+  background-color: #d90909;
+}

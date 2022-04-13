@@ -1,0 +1,88 @@
+.p1 {
+  background-image: url("https://www.mitsubishicars.com/content/dam/mitsubishi-motors-us/images/siteimages/up-to-speed/lancer-history/Mitsubishi-Lancer-Hero-d.jpg?width=1440&auto=webp&quality=70");
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(26, 25, 26, 0.582);
+}
+.p1text {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 30vh;
+  font-size: large;
+  font-weight: 500;
+}
+.p2 {
+  font-family: MMC-Bold, Arial, Helvetica, Verdana, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+.p3 {
+  font-family: MMC-Bold, Arial, Helvetica, Verdana, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+.lancerfaq {
+  font-family: MMC-Bold, Arial, Helvetica, Verdana, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 16rem;
+  padding-right: 14rem;
+}
+.p4 {
+  font-family: MMC-Bold, Arial, Helvetica, Verdana, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+.p5 {
+  font-family: MMC-Bold, Arial, Helvetica, Verdana, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+.p6 {
+  font-family: MMC-Bold, Arial, Helvetica, Verdana, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+.p7 {
+  font-family: MMC-Bold, Arial, Helvetica, Verdana, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+.p8 {
+  /* background-color: whitesmoke; */
+  font-family: MMC-Bold, Arial, Helvetica, Verdana, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  /* color: white; */
+}
+.p8 p {
+  font-family: MMC-Bold, Arial, Helvetica, Verdana, sans-serif;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
